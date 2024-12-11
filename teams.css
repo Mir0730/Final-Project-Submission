@@ -1,0 +1,20 @@
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-img {
+    max-width: 30%; /* Restrict the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+    filter: blur(3px);
+}
+
+.main-img:hover{
+    filter: blur(0px);
+}

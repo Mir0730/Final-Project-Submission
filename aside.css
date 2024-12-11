@@ -1,0 +1,14 @@
+aside {
+    background-color: #f9f9f9; /* Light background for visibility */
+    padding: 20px;
+    border: 1px solid #ddd; /* Optional border for clarity */
+    display: flex; /* Use Flexbox for better alignment */
+    align-items: flex-start; /* Align items to the top */
+    gap: 15px; /* Space between the image and the text */
+}
+
+.aside-image {
+    max-width: 30%; /* Restrict the width of the image */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional rounded corners */
+}
